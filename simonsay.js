@@ -13,6 +13,14 @@ document.addEventListener("keypress",function(){
         levelup();
     }
 });
+document.addEventListener("click",function(){
+    if(started==false){
+
+       // console.log("game started !");
+        started=true;
+        levelup();
+    }
+});
 function btnflash(btn){
     btn.classList.add("flash");
     setTimeout(function (){
