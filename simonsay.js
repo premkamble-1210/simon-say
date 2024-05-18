@@ -17,14 +17,14 @@ function btnflash(btn){
     btn.classList.add("flash");
     setTimeout(function (){
         btn.classList.remove("flash");
-    },300);
+    },900);
 
 }
 function userflash(btn){
     btn.classList.add("userflash");
     setTimeout(function (){
         btn.classList.remove("userflash");
-    },100);
+    },300);
 
 }
 function levelup(){
